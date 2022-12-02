@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* This section deals with the title bar and links to the .card articles */
 .header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
@@ -51,6 +51,7 @@ p {
   font-size: 16px;
 }
 
+/* The digital marketing image below the nav bar */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,6 +60,14 @@ p {
   background-position: center;
 }
 
+/* Creates space for the benefits aside on the right */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Used for positioning image in .card articles to alternate sides */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -69,11 +78,26 @@ p {
   margin-left: 25px;
 }
 
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
+/* The main information articles on the page */
+.card {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
+
+.card img {
+  max-height: 200px;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* The aside on the right of the screen  */
 
 .benefits {
   margin-right: 20px;
@@ -100,24 +124,6 @@ p {
   display: block;
   margin: 10px auto;
   max-width: 150px;
-}
-
-.card {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.card img {
-  max-height: 200px;
-}
-
-.card h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
 }
 
 .footer {
