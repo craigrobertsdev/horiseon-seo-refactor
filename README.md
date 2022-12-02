@@ -1,1 +1,1 @@
-# horiseon-refactor-project
+# horiseon-seo-project
