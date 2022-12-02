@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-/* This section deals with the title bar and links to the .card articles */
+/* This section deals with the title bar and links to the topic-panel articles */
 .header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
@@ -60,14 +60,24 @@ p {
   background-position: center;
 }
 
-/* Creates space for the benefits aside on the right */
+/* Creates space for the benefits panel on the right */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-/* Used for positioning image in .card articles to alternate sides */
+/* The main information articles on the page */
+.topic-panel {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Used for positioning image in the topic-panels articles to alternate sides */
 .float-left {
   float: left;
   margin-right: 25px;
@@ -78,26 +88,16 @@ p {
   margin-left: 25px;
 }
 
-/* The main information articles on the page */
-.card {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.card img {
+.topic-panel img {
   max-height: 200px;
 }
 
-.card h2 {
+.topic-panel h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-/* The aside on the right of the screen  */
+/* The panel to the right of the main body  */
 
 .benefits {
   margin-right: 20px;
@@ -125,6 +125,8 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
+
+/* Footer panel */
 
 .footer {
   padding: 30px;
