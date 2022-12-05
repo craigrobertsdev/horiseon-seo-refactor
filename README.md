@@ -9,7 +9,7 @@
 
 <br>
 <p align="center">
-  <img alt="Horiseon SEO Page" src="https://github.com/craigrobertsdev/horiseon-seo-refactor/blob/main/assets/Horiseon%20Screenshot.jpg">
+  <img alt="Horiseon SEO Page" src="https://github.com/craigrobertsdev/horiseon-seo-refactor/blob/main/Horiseon%20Screenshot.jpg">
 </p>
 
 
